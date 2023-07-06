@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Students Signup</title>
+  </head>
+  <body>
+    <div class="outer-box">
+      <main>
+        <div class="container">
+          <div class="hero-image">
+            <img src="assets/images/green-1.jpg" alt="hero-img" />
+          </div>
+
+          <div class="right-box">
+            <div class="right-inner-main">
+              <form action="#">
+                <h2>Student Signup</h2>
+                <p>Hey Enter your details to create your account</p>
+
+                <div class="fields">
+
+                  <div class="field">
+                    <div class="logo">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="info name">
+                      <input type="text" name="name" placeholder="Enter your Name" required />
+                    </div>
+                  </div>
+
+                  <div class="field">
+                    <div class="logo">
+                        <i class="fa-solid fa-envelope"></i>  
+                    </div>
+                    <div class="info email">
+                      <input type="email" name="email" placeholder="Enter your Email" required />
+                    </div>
+                  </div>
+
+                  <div class="field">
+                    <div class="logo">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="info number">
+                      <input type="number" name="number" placeholder="Enter your Phone" required />
+                    </div>
+                  </div>
+
+                  <div class="field">
+                    <div class="logo">
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <div class="info password">
+                      <input type="password" name="password" placeholder="Create Password" required />
+                    </div>
+                  </div>
+
+                  <div class="field ">
+                    <div class="info signup ma">
+                      <input type="submit" name="signup" value="Sign Up" id="SignUp"/> <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                    </div>
+                  </div>
+
+                </div>
+              </form>
+              <p>or sign up with</p>
+
+              <div class="signin-options">
+                <div class="option">
+                    <button><i class="fa-brands fa-google"></i></button>
+                </div>
+                <div class="option">
+                    <button><i class="fa-brands fa-facebook-f"></i></button>
+              </div>
+            </div>
+
+              <p>
+                Already have an account ? <a href="#">Sign In</a>
+              </p>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
